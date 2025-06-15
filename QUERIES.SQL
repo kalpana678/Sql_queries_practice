@@ -60,5 +60,6 @@ select doctor_id,    year( admission_date) as select_yr,
   from admissions as a 
   join doctors as d 
   on a.attending_doctor_id = d. doctor_id
-  group by admission_date
+  group by admission_date;
+  
   
